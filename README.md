@@ -78,7 +78,9 @@ import pytest
 def test_or(th0, th1, th2):
     assert perceptron_or_and([(0, 0), (0, 1), (1, 0), (1, 1)], [th0, th1, th2]) == [0, 1, 1, 1]
 
-...
+.
+.
+.
 
 @pytest.mark.parametrize("description, theta_or, theta_and, theta_not", [
     ("forth", [-15, 18, 19], [-32, 18, 18], [4, -32]),
